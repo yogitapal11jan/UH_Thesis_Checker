@@ -1,3 +1,6 @@
+st.write("App started successfully")
+st.title("UH Thesis Checker — Rigorous")
+
 from pathlib import Path
 
 content = """import json
