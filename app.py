@@ -1,6 +1,3 @@
-st.write("App started successfully")
-st.title("UH Thesis Checker — Rigorous")
-
 from pathlib import Path
 
 content = """import json
@@ -10,6 +7,8 @@ from pathlib import Path
 import pandas as pd
 import streamlit as st
 from openai import OpenAI
+
+st.write("App started successfully")
 
 MODEL_NAME = "gpt-5.4"
 DEFAULT_VECTOR_STORE_ID = "vs_69b077b2002c819196aa0b1bca0716e0"
